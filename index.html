@@ -66,18 +66,17 @@
   <nav class="site-nav dark js-site-navbar mb-5 site-navbar-target">
     <div class="container">
       <div class="site-navigation">
-        <a id="logo-navbar" href="index.html" class="logo m-0 float-left">Pandaflag<span class="text-primary">.</span></a>
+        <a id="logo-navbar" href="#" class="logo m-0 float-left">Pandaflag<span class="text-primary">.</span></a>
 
         <ul class="js-clone-nav d-none d-lg-inline-block site-menu float-left">
           <li><a href="#features-section" class="nav-link">Features</a></li>
           <li><a href="#integrations-section" class="nav-link">Integrations</a></li>
           <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
-          <li><a href="#contact-section" class="nav-link">Contact</a></li>
         </ul>
 
         <ul class="js-clone-nav d-none mt-1 d-lg-inline-block site-menu float-right">
-          <li class="cta-button-outline"><a href="signin.html">Sign in</a></li>
-          <li class="cta-primary"><a href="register.html">Register</a></li>
+          <li class="cta-button-outline"><a id="login-link" target="_blank" href="https://app.pandaflag.com/login">Sign in</a></li>
+          <li class="cta-primary"><a id="register-link" target="_blank" href="https://app.pandaflag.com/register">Register</a></li>
         </ul>
 
 
@@ -113,8 +112,7 @@
                   <p>Release new features with confidence, iterate faster, enjoy your deployments</p>  
                 </div>
                 <p data-aos="fade-up"  data-aos-delay="200">
-                  <a href="#features-section" class="btn btn-primary smoothscroll mr-1">Get started for FREE</a>
-                  <!-- <a href="#pricing-section" class="btn btn-outline-primary smoothscroll">Pricing</a> -->
+                  <a id="hero-cta" target="_blank" href="https://app.pandaflag.com/login" class="btn btn-primary smoothscroll mr-1">Get started for FREE</a>
                 </p>
               </div>
               
@@ -222,7 +220,7 @@
             </div>
             <div class="service-contents">
               <h3>React JS</h3>
-              <p>We love React aswell, make use of our <a target="_blank" class="text-primary" href="#">hooks</a> in order to integrate more easily</p>  
+              <p>We love React aswell, make use of our <a target="_blank" class="text-primary" href="https://github.com/Julianus01/pandaflag-react">hooks</a> in order to integrate more easily</p>  
             </div>
           </div>
         </div>
@@ -236,7 +234,7 @@
             </div>
             <div class="service-contents">
               <h3>Node JS</h3>
-              <p>Secure your backend by <a target="_blank" class="text-primary" href="#">evaluating</a> flags, give it a try</p>  
+              <p>Secure your backend by <a target="_blank" class="text-primary" href="https://github.com/Julianus01/pandaflag-node">evaluating</a> flags, give it a try</p>  
             </div>
           </div>
         </div>
@@ -250,7 +248,7 @@
             </div>
             <div class="service-contents">
               <h3>Rest API</h3>
-              <p>We don't forget our roots, it's what we use under the hood. Test it out in <a target="_blank" class="text-primary" href="#">Pandaflag</a> app in Flags page</p>  
+              <p>We don't forget our roots, it's what we use under the hood. Test it out in <a id="rest-api-link" target="_blank" class="text-primary" href="https://app.pandaflag.com/login">Pandaflag</a> app in Flags page</p>  
             </div>
           </div>
         </div>
@@ -265,26 +263,45 @@
         <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="0">
           <span class="caption">Plans</span>
           <h2 class="heading">Pricing</h2>
-          <p>Pricing for everyone. Choose your plan now!</p>
+          <p>We are at our beginnings</p>
         </div>
       </div>
 
       <div class="row justify-content-center">
         <div class="col-lg-10">
           <div class="row justify-content-center">
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
               <div class="pricing">
                 <div class="body">
                   <div class="price">
-                    <span class="price"><sup>$</sup><span>0</span></span>
+                    <span class="price"><sup>€</sup><span>0</span></span>
                     <span class="d-block plan mb-4">Free</span>
                   </div>
                   <ul class="list-unstyled ul-check primary mb-5">
-                    <li>There live the blind texts</li>
-                    <li>Far far away behind the word</li>
-                    <li>Far from the countries Vokalia and Consonantia</li>
+                    <li>Unlimited Flags</li>
+                    <li><b>1</b> Project</li>
+                    <li><b>1</b> Team Member</li>
+                    <li><b>2</b> Environments</li>
                   </ul>
-                  <p class="text-center mb-0"><a href="#" class="btn btn-outline-primary">Get Started</a></p>
+                  <p  class="text-center mb-0"><a id="pricing-free-cta" target="_blank" href="https://app.pandaflag.com/login" class="btn btn-outline-primary">Get Started</a></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="pricing">
+                <div class="body">
+                  <div class="price">
+                    <span class="price"><sup>€</sup><span>X</span></span>
+                    <span class="d-block plan mb-4">Soon</span>
+                  </div>
+                  <ul class="list-unstyled ul-check primary mb-5">
+                    <li>Unlimited Flags</li>
+                    <li><b>X</b> Project</li>
+                    <li><b>X</b> Team Member</li>
+                    <li><b>X</b> Environments</li>
+                  </ul>
+                  <p style="opacity: 0;" class="text-center mb-0"><a href="#" class="btn btn-outline-primary">Get Started</a></p>
                 </div>
               </div>
             </div>
@@ -295,7 +312,7 @@
     </div>
   </div>
 
-  <div class="untree_co-section" id="contact-section">
+  <!-- <div class="untree_co-section" id="contact-section">
     <div class="container">
       <div class="row mb-5"  data-aos="fade-up" data-aos-delay="0">
         <div class="col-12 text-center">
@@ -338,7 +355,7 @@
 
       </div>
     </div>
-  </div>
+  </div> -->
   
 
   <div class="site-footer">
@@ -350,7 +367,8 @@
         <div class="col-lg-4">
           <div class="widget">
             <h3>Pandaflag<span class="text-primary">.</span> </h3>
-            <p>Release new features with confidence, iterate faster, enjoy your deployments.</p>
+            <p>Release new features with confidence, iterate faster, enjoy your deployments</p>
+            <p class="text-primary">pandaflagsaas@gmail.com</p>
           </div>
         </div>
       </div>
@@ -391,8 +409,11 @@
         document.getElementById('logo-navbar').innerHTML = 'Pandaflag DEV<span class="text-primary">.</span>'
 
         // Replace link for dev
-        // document.getElementById('app-link-hero').setAttribute('href', 'https://app-dev.pandaflag.com/register')
-        // document.getElementById('app-link-cta').setAttribute('href', 'https://app-dev.pandaflag.com/register')
+        document.getElementById('login-link').setAttribute('href', 'https://app-dev.pandaflag.com/login')
+        document.getElementById('register-link').setAttribute('href', 'https://app-dev.pandaflag.com/register')
+        document.getElementById('hero-cta').setAttribute('href', 'https://app-dev.pandaflag.com/login')
+        document.getElementById('pricing-free-cta').setAttribute('href', 'https://app-dev.pandaflag.com/login')
+        document.getElementById('rest-api-link').setAttribute('href', 'https://app-dev.pandaflag.com/login')
       }
     })()
   </script>
