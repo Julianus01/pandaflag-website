@@ -1,9 +1,3 @@
-/*
-* Template Name: Landing
-* Template Author: Untree.co
-* Author URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/
 body {
   font-family: "Work Sans", sans-serif;
   line-height: 1.6;
@@ -634,24 +628,24 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .burger:focus {
   outline: none; }
 
-.untree_co-hero {
+.pandaflag-hero {
   position: relative; }
-  .untree_co-hero, .untree_co-hero > .container > .row {
+  .pandaflag-hero, .pandaflag-hero > .container > .row {
     padding: 6rem 0; }
   @media (max-width: 991.98px) {
-    .untree_co-hero {
+    .pandaflag-hero {
       text-align: center; } }
-  .untree_co-hero .heading {
+  .pandaflag-hero .heading {
     line-height: 1;
     font-weight: 700;
     color: #000000;
     margin-bottom: 30px;
     font-size: clamp(2rem, 2.5vw, 4rem); }
-  .untree_co-hero .dots {
+  .pandaflag-hero .dots {
     position: absolute;
     width: 100%;
     height: 200%; }
-    .untree_co-hero .dots:before {
+    .pandaflag-hero .dots:before {
       z-index: -1;
       right: 0;
       -webkit-transform: translateX(60%);
@@ -662,33 +656,33 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       width: 304px;
       height: 264px;
       background: url("../images/dots.png") right top; }
-  .untree_co-hero .intro {
+  .pandaflag-hero .intro {
     position: relative;
     z-index: 2; }
     @media (max-width: 991.98px) {
-      .untree_co-hero .intro {
+      .pandaflag-hero .intro {
         padding-right: 0; } }
-  .untree_co-hero .excerpt {
+  .pandaflag-hero .excerpt {
     margin-bottom: 30px; }
 
-.untree_co-section {
+.pandaflag-section {
   padding: 100px 0;
   position: relative; }
   @media (max-width: 991.98px) {
-    .untree_co-section {
+    .pandaflag-section {
       padding: 50px 0; } }
-  .untree_co-section .heading {
+  .pandaflag-section .heading {
     font-size: 38px;
     color: #000000;
     font-weight: 600; }
-    .untree_co-section .heading strong {
+    .pandaflag-section .heading strong {
       font-weight: 700; }
     @media (max-width: 991.98px) {
-      .untree_co-section .heading {
+      .pandaflag-section .heading {
         font-size: 28px; } }
-    .untree_co-section .heading.border-b {
+    .pandaflag-section .heading.border-b {
       position: relative; }
-      .untree_co-section .heading.border-b:before {
+      .pandaflag-section .heading.border-b:before {
         width: 100px;
         height: 1px;
         background: #000000;
@@ -713,24 +707,24 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   border-radius: 20px;
   overflow: hidden; }
 
-.untree_co-testimonial .pic {
+.pandaflag-testimonial .pic {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 50px;
   flex: 0 0 50px; }
-  .untree_co-testimonial .pic img {
+  .pandaflag-testimonial .pic img {
     border-radius: 50%; }
 
-.untree_co-testimonial blockquote {
+.pandaflag-testimonial blockquote {
   font-style: italic;
   color: #000000; }
 
-.untree_co-testimonial .highlight {
+.pandaflag-testimonial .highlight {
   display: inline;
   background: rgba(16, 123, 233, 0.07); }
 
-.untree_co-testimonial .author {
+.pandaflag-testimonial .author {
   font-size: 14px; }
-  .untree_co-testimonial .author strong {
+  .pandaflag-testimonial .author strong {
     font-weight: 400;
     color: #000000; }
 
@@ -1067,15 +1061,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   .quick-contact .ul-links li, .custom-box .ul-links li {
     margin-bottom: 20px; }
 
-.untree_co-login-register {
+.pandaflag-login-register {
   padding: 8rem 0; }
-  .untree_co-login-register .custom-box {
+  .pandaflag-login-register .custom-box {
     padding: 45px; }
-    .untree_co-login-register .custom-box label {
+    .pandaflag-login-register .custom-box label {
       font-size: 16px; }
-    .untree_co-login-register .custom-box .form-field {
+    .pandaflag-login-register .custom-box .form-field {
       margin-bottom: 10px; }
-  .untree_co-login-register h2 {
+  .pandaflag-login-register h2 {
     font-weight: bold;
     font-size: 30px; }
 

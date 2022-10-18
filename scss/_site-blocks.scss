@@ -1,4 +1,4 @@
-.untree_co-hero {
+.pandaflag-hero {
 	position: relative;
 	// background-color: #D3DEDC;
 	&, & > .container > .row {
@@ -48,7 +48,7 @@
 
 }
 
-.untree_co-section {
+.pandaflag-section {
 	padding: 100px 0;
 	position: relative;
 	@include media-breakpoint-down(md) {
@@ -115,7 +115,7 @@
 	overflow: hidden;
 }
 
-.untree_co-testimonial {
+.pandaflag-testimonial {
 	.pic {
 		flex: 0 0 50px;
 		img {
@@ -530,7 +530,7 @@
 	}
 }
 
-.untree_co-login-register {
+.pandaflag-login-register {
 	padding: 8rem 0;
 	.custom-box {
 		padding: 45px;
