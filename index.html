@@ -74,7 +74,7 @@
     <div class="container">
       <div class="site-navigation">
         <img style="height: 30px; width: auto; margin-top: 6px !important;" class="logo m-0 float-left" src="./images/logo.svg" alt="My Happy SVG"/>
-        <!-- <a id="logo-navbar" href="#" class="logo m-0 float-left">Pandaflag<span class="text-primary">.</span></a> -->
+        <a id="logo-navbar" href="#" class="logo m-0 ml-2 float-left">pandaflag<span class="text-primary">.</span></a>
 
         <ul class="js-clone-nav d-none d-lg-inline-block site-menu float-left">
           <li><a href="#features-section" class="nav-link">Features</a></li>
@@ -443,7 +443,7 @@
     (function () {
       if (window.location.origin.includes('file://') || window.location.origin.includes('dev.pandaflag.net')) {
         // Replace logo for dev
-        document.getElementById('logo-navbar').innerHTML = 'Pandaflag DEV<span class="text-primary">.</span>'
+        document.getElementById('logo-navbar').innerHTML = 'pandaflag DEV<span class="text-primary">.</span>'
 
         // Replace link for dev
         document.getElementById('login-link').setAttribute('href', 'https://app-dev.pandaflag.net/login')
